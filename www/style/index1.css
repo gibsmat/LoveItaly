@@ -1,0 +1,868 @@
+@font-face {
+  font-family: "Strato";
+  src: url("Font/strato-linked-webfont.ttf") format("opentype");    
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("Font/Roboto-BlackItalic.ttf") format("opentype");    
+}
+
+.bordosfondotesto{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 15px;
+  width: 62%;
+  color: #008000;
+  outline: transparent !important;
+  margin-left: 16%;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.bordosfondotesto2{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 15px;
+  width: 62%;
+  color: #008000;
+  outline: transparent !important;
+  margin-left: 17.5%;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.PagP{
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  background-color: transparent;
+  border: 1px solid #d9534f;
+  color: #d9534f !important;
+}
+
+.pg{
+  margin: 3%;
+}
+
+.boxs{
+  background:white;
+  height: 245px;
+}
+.pag{
+  margin-top: 20%;
+}
+.boxg{
+  background: #EFECEC;
+  height: 46%;
+}
+
+.Cart{
+  width: 100%;
+  margin-bottom: 6%;
+  border: 1px solid green !important;
+  color: green !important;
+  background-color: transparent;
+}
+
+.reg{
+  font-family: Roboto;
+  color: green;
+}
+
+.nome_Az{
+  font-size: 7px;
+}
+
+.Inf{
+  color: gray !important;
+  width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 25%;
+  background-color: transparent;
+}
+
+.logout{
+  background-color: #FF4040;
+  color: white !important;
+}
+
+.Acc{
+  color: #FF4040;
+  font-size: 140%;
+  font-style: oblique;
+  font-family: sans-serif;
+}
+
+.pom{
+  width: 46%;
+}
+
+.bott{
+  margin-top: 9%;
+  margin-bottom: 15%;
+  background-color: rgb(106, 205, 106);
+}
+
+.For{
+  width: 100%;
+}
+
+.Use{
+  color: black !important;
+  font-size: 140%;
+}
+
+.pasD{
+  font-family: Roboto;
+  color:#008000;
+  text-align: right;
+  margin-left: 45%;
+}
+
+.separator{
+  width: 75%;
+  border: 1px solid rgba(0, 128, 0, 0.19);
+}
+
+.tes{
+  font-family: Roboto;
+  color:#008000;
+  font-size: 120%;
+  margin: 3%;
+  margin-left: 9%;
+}
+
+.Username{
+  background: rgba(0, 128, 0, 0.29);
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+
+.scbar{
+  margin: 3%;
+  font-size: 140%;
+  color:#008000;
+}
+
+.Passw{
+  background: rgba(0, 128, 0, 0.29);
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.imags{
+  max-width: 150px;
+  margin-top:10%;
+}
+
+.navb{
+  background-color: #008000;
+  overflow: hidden;
+ }   
+#contenitore{
+  margin-top: 20%;
+}
+.content{
+  width: 100%;
+  background-image: url(../img/sfondo.png) !important;
+}
+
+.nome_Prod{
+  font-family: serif;
+  margin: 0px;
+  font-size: 12px;
+  height: 33px;
+}
+
+.img_prod{
+  height: 20%;
+  color:blue;
+}
+
+.head{
+  background-color: green;
+}
+
+.icbar{
+  color: white;
+}
+
+.sear{
+  color: white;
+}
+
+.tit{
+  color: white;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.bottone{
+  text-align: center;
+}
+
+.pre{
+  font-family: Roboto;
+}
+.carrel{
+  margin-top: 20%;
+}
+.menu{
+  max-width: 85%;
+  width:85%;
+  height:100%;
+  position:absolute;
+  left:-653px;
+  background:white;
+  z-index: 20;  
+  border:1px solid gray;
+  overflow: auto;
+}
+
+.bodymenu{
+  margin-top:20%;
+}
+
+.prpr{
+  margin-left: 3%;
+}
+
+.btn_avanti{
+  height: 60px;
+  width: 144px;
+  margin-top: 30px;
+ }
+
+.cart{
+  height: 30px;
+}
+
+.love{
+  margin-left: 36%;
+  font-family: Roboto;
+  color: white;
+  margin-top: 15px;
+  font-size: 170%;
+}
+
+.container{
+  padding: 30px;
+}
+
+.dove{
+  width: 100%;
+  text-align: center;
+  font-family: cursive;
+  color:red;
+  font-size: 100%;
+  margin-bottom: 15px;
+}
+
+.Logo{
+  margin-top: 18%;
+  height: 250px;
+  background-image: url(../img/log.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ciao{
+  position:relative;
+  margin-top: 7%;
+  height: 367px;
+  background-image: url(../img/log.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 8s; 
+  animation-name: example;
+  animation-duration: 8s;
+}
+
+@-webkit-keyframes example {
+  0%   {top:-800px;}
+  25%  {top:0px;}
+}
+
+.scritta1{
+  margin-top: 2%;
+  position:relative;
+  height: 15%;
+  text-align: center;
+  font-family: "Strato";
+  color:#008000;
+  font-size: 170%;
+  -webkit-animation-name: scritta;
+  -webkit-animation-duration: 8s; 
+  animation-name: scritta;
+  animation-duration: 8s;
+}
+
+@-webkit-keyframes scritta{
+  0% {margin-left:-1200px;}
+  25% {margin-left:0px;}
+}
+
+.scritta2{
+  position:relative;
+  height: 10%;
+  text-align: center;
+  font-family: "Strato";
+  color:#FF4040;
+  font-size: 170%;
+  -webkit-animation-name: scrittaa;
+  -webkit-animation-duration: 8s; 
+  animation-name: scrittaa;
+  animation-duration: 8s;
+}
+
+@-webkit-keyframes scrittaa{
+  0%  {margin-right: -1200px;}
+  25% {margin-right: 0px;}
+}
+
+.centra{
+  text-align: center;
+}
+
+.bordo{
+  border-style: solid;
+}
+
+.men{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.scrivirecensione{
+  width: 100%;
+  text-align: center;
+  font-family: Roboto;
+  color: #FF4040;
+  font-size: 215%;
+  margin-bottom: 20px;
+}
+
+.areacommento{
+  -webkit-appearance: textarea;
+  font-family: Roboto;
+  -webkit-user-select: text;
+  background: transparent;
+  color: green; /* Colore del testo */
+  height: 160px; /* Altezza */
+  line-height: 20px; /* Altezza di riga */
+  padding: 0 10px; /* Padding */
+  border-width: 2px;
+  border-style: dotted;
+  border-color: #FF3F3F;
+  border-radius: 15px;
+  padding: 5px;
+  max-width: 100%;
+}
+
+.btn_commenta{
+  height: 60px;
+  width: 144px;
+  margin-top: 40px;
+}
+
+.iltuocarrello{
+  width: 100%;
+  text-align: center;
+  font-family: Roboto;
+  color: #008000;
+  font-size: 166%;
+  margin-bottom: 7%;
+  margin-top: -6%;
+}
+
+.imgcart{
+  margin-top: -7.5%;
+  margin-left: 32%;
+}
+
+.tuttotrasparente{
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  border-top-color: transparent !important;
+  background-color: transparent !important;
+  outline: transparent !important;
+  width: 100%;
+  font-size: 19px;
+  color: #008000;
+  font-weight: bold;
+  margin-left: 7%;
+}
+
+.riga{
+  height:
+}
+
+.anteprimeprodcarrello{
+  height: 80%;
+  width: 80%;
+  border-radius: 100%;
+  margin-bottom: 5%;
+}
+
+.staccato{
+  margin-left: -17.5%;
+  margin-top: 3%;
+  margin-bottom: 3%;  
+} 
+
+.btn_rimuoviprodcarr{
+  background-color: transparent !important;
+  border-radius: 50%;
+  border: 0px transparent !important;
+}
+
+.btn:focus{
+  outline:none ! important;
+  border: 0px solid transparent ! important;
+}
+
+.btn_procedi{
+  height: 42px;
+  margin-top: 6%;
+  margin-bottom: 15%;
+}
+
+.bordo {
+  border-style: dotted !important;
+  border-color: #008000 !important;
+}
+
+.bordooo {
+  border-style: dotted;
+  border-color: #0A850A;
+  border-left: transparent;
+}
+
+.prodottocarrello{
+  font-family: Roboto;
+  font-size: 22px;
+}
+
+.crossimg{
+  width: 20px;
+  margin-left: -26%;
+}
+
+.descrizionecarrello{
+  font-family: serif;
+  font-size: 15px;
+  margin-top: 7%
+}
+
+.testodescrizionecarr{
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.prezzo{
+  font-family: serif;
+  font-size: 18px;
+  margin-top: 10%;
+}
+
+.imgprezzo{  
+  text-align: left;
+  width: 11%;
+  margin-left: 23.5%;
+  margin-top: -27.5%;
+}
+
+.prezzototale{
+  color: #000000;
+  font-family: Roboto;
+  font-size: 150%;  
+  margin-bottom: 6%;
+  margin-left: -1.2%;
+  margin-top: 11%;  
+}
+
+.soldi{
+  text-align: right;
+  width: 165%;
+  font-family: Roboto;
+  font-size: 100%;  
+  margin-bottom: 7%;  
+}
+
+.imgeuro{
+  width: 7%;
+  margin-top: 1%;
+  margin-left: -14%;
+}
+
+.importototale{
+  width: 100%;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 270%;
+  margin-left: 60%;
+  margin-bottom: 7%;
+  margin-top: 10%;
+}
+
+.tototo{
+  margin-top: -20.5%;
+  margin-left: 102%;
+}
+
+.inputricerca{
+  font-family: sans-serif !important;
+  font-size: 14px !important;
+  height: 32px !important;
+  width: 64% !important;
+  font-size: 12px !important;  
+  padding: 6px 12px !important;
+  line-height: 1.42857143 !important;
+  color: #333333 !important;
+  background-color: #fff !important;  
+  border: 1px solid #025202 !important;
+  border-radius: 8px !important;
+}
+
+.btn_cerca{
+  font-size: 18px !important;
+  height: 34px !important;
+  width: 10% !important;
+  margin-top: -12% !important;
+  margin-bottom: 2% !important;
+  margin-left: -50% !important;
+  border-color: #FFFFFF !important;
+  border-radius: 5px !important;
+}
+
+.concludiacquisto{
+  width: 100% !important;
+  margin-bottom: 17% !important;
+  text-align: center !important;
+  font-family: Roboto !important;
+  color: #008000 !important;
+  font-size: 265% !important;
+  margin-top: 20%;
+}
+#registrazione{
+  margin-top: 20%;
+}
+
+.coloreprezzo{
+  color: #000000;
+}
+
+.totalepagamento{
+  color: #000000;
+  font-family: Roboto;
+  font-size: 150%;  
+  margin-bottom: 30%;
+  margin-left: -2.5%;  
+}
+
+.prto{
+  font-family: roboto;
+}
+
+.imgcartellino{
+  text-align: left;
+  width: 11%;
+  margin-left: -8.5%;
+  margin-top: 1.5%;
+}
+
+.btn_paga{
+  height: 50px;
+  width: 55%;
+  margin-top: 20%;
+  margin-bottom: 6%;
+  background-color: #FF4040;
+}
+
+.compratotale{
+  color: #000000;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 175% !important;  
+  margin-bottom: 16%;  
+}
+
+.creditcardnumber{
+  font-size: 15px !important;
+  width: 80% !important;
+  margin-left: 10% !important;
+  font-style: oblique !important;
+  display: block !important;   
+  padding: 12px 12px !important;
+  line-height: 1.42857143 !important;
+  color: #000000 !important;
+  background-color: transparent !important;  
+  border: 2px solid #008000 !important;
+  border-radius: 10px !important;
+}
+
+.compilaform{
+  width: 100%;
+  margin-bottom: 1%;
+  text-align: center;
+  font-family: Roboto;
+  color: #008000;
+  font-size: 174%;  
+  margin-top: -2%;
+}
+
+.richiestadati{
+  width: 100%;
+  margin-bottom: 17%;
+  text-align: center;
+  font-family: Roboto;
+  color: rgba(4, 111, 4, 0.55);
+  font-size: 89%;
+}
+
+.btn_iscriviti{
+  height: 50px;
+  width: 55%;
+  margin-top: 20%;
+  margin-bottom: 6%;
+  background-color: #FF4040;
+}
+
+.centro{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sfondotrasparente{    
+  background: transparent !important;
+}
+
+.grandezzaaa{
+  font-size: 146%;
+}
+
+.margineform{
+  margin-top: -2%;
+  margin-bottom: 7%;
+}
+
+.carrvuoto{
+  width: 113%;
+  margin-left: -15%;
+  margin-top: 8%;
+}
+
+.spaziettinoo{
+  margin-bottom: 1.5%;
+}
+
+.prezzopagprod{
+    margin-left: -80%;
+    font-family: serif;
+    font-size: 22px;
+    margin-bottom: -12%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.margineform1{
+  margin-top: 1%;
+  margin-bottom: 7%;
+}
+
+.margineform2{
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
+
+.bottonedestra{
+  margin-left:45%;
+}
+
+.pagprodnome{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+.pagprodsecondotitolo{
+  text-align: center;
+  font-size: 21px;
+  font-family: Roboto;
+}
+
+.btn_visitaazienda{
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+.descrizionepagprod{
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 17px;
+  font-style: oblique;
+  margin-top: 9px;
+  color: rgba(55, 53, 53, 0.71);
+}
+
+.btn_pagprod{
+    margin-left: 60%;
+    margin-top: -15%;
+    margin-bottom: -15%;
+    border-radius: 50%;
+}
+
+.Quantita{
+    margin-top: -100px;
+    margin-left: 72%;
+}
+
+.posizioneprodotto{
+  max-width: 100%;
+  margin-top: 15%;
+}
+#inf{
+  background:rgba(214, 214, 214, 0.43);
+}
+#sup{
+  background: white;
+}
+
+
+.imgpulsantino{
+  width: 109%;
+  margin-left: -3.5%;
+  margin-top: -16%;
+}
+
+.riposizionaview12a{
+  margin-top: -12%;
+}
+
+.btn_infoazienda{
+  height: 50px;
+  width: 55%;
+  margin-top: 20%;
+  margin-bottom: 6%;
+  background-color: #FF4040;
+}
+
+.logoazienda{
+  width: 12%;
+}
+
+.nomeutente{
+  font-family: Roboto;
+  color: #008000;
+}
+
+.cognomeutente{
+  font-family: Roboto;
+  color: #008000;
+}
+
+.riga{
+  width: 78%;
+  border: 1px solid rgba(255, 64, 64, 0.75);
+  margin-bottom: 25%;
+}
+
+.modind{
+  color: rgba(0, 128, 0, 0.64) !important;
+  margin-left: 2.5%;
+  font-size: 68%;
+}
+
+.contatti{
+  font-family: Roboto;
+  font-size: 27px;
+  margin-bottom: 12%;
+}
+
+.telmailind{
+  font-size: 20px !important;
+  font-family: Roboto;
+}
+
+.font25px{
+  font-size: 25px !important;
+}
+
+.marginetto{
+  margin-left: -1%;
+}
+
+.sinistraaaa{
+  font-size: 26px;
+  margin-right: 5%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 3%;
+  color: rgba(0, 128, 0, 0.64);
+}
+
+.retrooo{
+  width: 116%;
+  background: rgba(192, 192, 192, 0.44);
+  margin-left: -8%;
+  margin-top: -10%;
+  margin-bottom: 8%;
+}
+
+.nomaz{
+  font-family: Roboto;
+  font-size: 28px;
+  margin-top: -8%;
+  color: rgba(255, 64, 64, 0.76);
+  margin-bottom: 16% !important;
+}
+
+.smile{
+  margin-top: 2%;
+  width: 100%;
+}
+
+.regok{
+  width: 100%;
+  text-align: center;
+  font-family: Roboto;
+  color: #FF4040;
+  font-size: 214%;
+  margin-bottom: 20px;
+}
+
+.btn_tornahome{
+  height: 42px;
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+.nomerecensitore{
+  color: rgba(0, 128, 0, 0.62);
+  margin-top: 3%;
+  margin-left: 7%;
+}
+
+.visualizzazionetesto{
+  margin-top: -1%;
+  font-style: oblique;
+  font-size: 81%;
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.aaabordobbb {
+  border-style: dotted !important;
+  border-color: rgba(255, 64, 64, 0.78) !important;
+}
+
+.ababab{
+  font-size: 20px !important;
+  font-style: italic;
+  font-family: sans-serif;
+  color: rgba(222, 239, 222, 0.88) !important;
+}

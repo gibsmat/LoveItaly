@@ -1,0 +1,14 @@
+<div id="content-placeholder" class="cont"></div>
+
+<script id="Ricerca" type="text/x-handlebars-template">
+
+    {{#each this }} {{#if meta_title}}
+
+    <div id="nomecat" class="{{name}}" style="visibility: hidden"></div>
+
+    <div id={{id}} href="ricercacategoria/{{id}}" name="{{name}}" class="categoria prodottocategorie"><img src="http://loveitaly.altervista.org/api/images/categories/{{id}}&ws_key=IYI6M35MLB8UVW38Y99RY3YPQWRX5X8H" class="img-thumbnail spaziettinoo" height="100">
+    </div>
+
+    {{/if}} {{/each}}
+
+</script>

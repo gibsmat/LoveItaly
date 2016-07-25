@@ -1,0 +1,78 @@
+<div class="content-placeholder"></div>
+<script id="address-template" type="text/x-handlebars-template">
+    <div class="col-md 12 container">
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 carrel">
+
+            <label Class="iltuocarrello">Il tuo Carrello</label>
+
+            {{#if this}} {{#each this}}
+
+            <div id="{{id}}" Class="row bordo prodottohomepage" name={{id}}>
+
+                <div class="col-xs-1 centro">
+
+                    <div id="xxx" class="col-xs-1 centro">
+                        <button id="{{id}}" type="button" class="btn btn-success btn_rimuoviprodcarr"><img class="crossimg" src="img/x.png">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-xs-5 centro">
+
+                    <img src="http://loveitaly.altervista.org/api/images/products/{{val}}/{{id_img}}&ws_key=IYI6M35MLB8UVW38Y99RY3YPQWRX5X8H" class="img-cart"></img>
+
+                </div>
+
+                <div class="col-xs-6">
+
+                    <div class="centra">
+
+                        <h1 class="prodottocarrello"><i><ins>{{name}}</ins></i></h1>
+
+                        <h3 class="descrizionecarrello">Produttore:</h3>
+
+                        <h4 class="testodescrizionecarr"><i>{{azienda}}</i></h4>
+
+                        <h4 class="prezzo">Prezzo: <b>€  {{price}} x <a>{{quantita}}</a></b> </h4>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-2"></div>
+
+            </div>
+
+            <br> {{/each}}
+
+        </div>
+        <!--chiude col-md-8!-->
+
+        <div class="centra"><img class="imgeuro" src="img/euro.ico">
+            <label class=" prezzototale">Prezzo Totale: €
+                <div class="tototo">
+                    <p id="totale"></p>
+                </div>
+            </label>
+        </div>
+
+        <div class="bottone">
+            <button id="salta" type="button" class="btn btn-success fa fa-shopping-cart btn_procedi" style="font-size:19px"> Procedi con l' acquisto</button>
+        </div>
+
+    </div>
+    <!--chiude container!-->
+
+    </div>
+
+    {{else}}
+
+    <label Class="iltuocarrello">è vuoto</label>
+    <img class="carrvuoto" src="img/carrellovuoto.png"></img>
+
+    {{/if}}
+
+</script>

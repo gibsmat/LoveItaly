@@ -1,0 +1,25 @@
+<div class="content-placeholder"></div>
+
+<script id="riccat-template" type="text/x-handlebars-template">
+
+    <div class="flex-container">
+
+        {{#each this}} {{#if id_default_image}}
+
+        <div class="flex-item">
+
+            <div class="centra"><img class="flex-item:nth-child bord imags" name="{{name}}" src="http://192.168.56.101/loveitaly/api/images/products/{{id}}/{{id_default_image}}&ws_key=IYI6M35MLB8UVW38Y99RY3YPQWRX5X8H" class="img-thumbnail prodottohomepage" height="100">
+            </div>
+
+            <div class="centra nome_Prod">{{name}}</div>
+
+            <div class="centra nome_Az">Azienda Farmers</div>
+
+            <div class="centra Price">{{price}}</div>
+
+        </div>
+        {{/if}} {{/each}}
+
+    </div>
+
+</script>

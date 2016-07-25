@@ -1,0 +1,84 @@
+<script id="prodotto-template" type="text/x-handlebars-template">
+    <div class="centra">
+        {{#if id_default_image}}
+        <img class="posizioneprodotto img-rounded" src="http://loveitaly.altervista.org/api/images/products/{{id}}/{{id_default_image}}&ws_key=IYI6M35MLB8UVW38Y99RY3YPQWRX5X8H" height="400"> {{else}}
+        <img src="img/carote.jpg" class="posizioneprodotto img-rounded" height="400"> {{/if}}
+    </div>
+
+    <div class="col-md 12 container">
+
+        <div class="col-md-8">
+
+
+
+            <div class="row">
+
+
+                <div class="bottonedestra addcarrello" id="{{id}}" type="button" azienda="{{manufacturer_name}}" price="{{price}}" name="{{name}}" id_img="{{id_default_image}}">
+
+                    <div class="centra prezzopagprod">Prezzo: € {{price}}</div>
+
+                    <button id="salta" type="button" class="btn btn-success btn_pagprod" data-toggle="modal" data-target="#myModal" style="font-size:32px"><img class="imgpulsantino" src="img/cart.png">
+                    </button>
+                </div>
+                <div class="container">
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Scegliere la quantità desiderata</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <select class="form-control quantita" id="sel1">
+                                        <option value="1">1 pz.</option>
+                                        <option value="2">2 pz.</option>
+                                        <option value="3">3 pz.</option>
+                                        <option value="4">4 pz.</option>
+                                        <option value="5">5 pz.</option>
+                                        <option value="6">6 pz.</option>
+                                        <option value="7">7 pz.</option>
+                                        <option value="8">8 pz.</option>
+                                        <option value="9">9 pz.</option>
+                                        <option value="10">10 pz.</option>
+                                    </select>
+                                </div>
+                                <div class="modal-footer">
+                                    <button id="acq" type="button" class="btn btn-default" data-dismiss="modal">Aggiungi al carrello</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagprodnome">
+                <!--   {{name}} -->
+            </div>
+
+            <div class="pagprodsecondotitolo">Descrizione</div>
+
+            {{#if description_short}}
+
+            <div class="descrizionepagprod"> {{description_short}}</div>
+            {{else}}
+
+            <div class="descrizionepagprod"> {{description}}</div>
+            {{/if}}
+
+        </div>
+        <!--chiude col-md-8!-->
+
+        <div class="bottone">
+
+            <button id="azienda" type="button" class=" btn_visitaazienda btn btn-success  " href="azienda/{{id_manufacturer}}" style="font-size:27px"><img src="img/icona-azienda.png" height="35"> Visita l&#180Azienda
+            </button>
+
+        </div>
+
+    </div>
+    <!--chiude container!-->
+
+</script>
+<div class="content-placeholder"></div>

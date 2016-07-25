@@ -1,0 +1,42 @@
+<div class="content-placeholder"></div>
+
+<script id="address-template" type="text/x-handlebars-template">
+
+    <div id="contenitore" class="flex-container">
+
+        {{#if this}} {{#each this}} {{#if id_default_image}}
+
+        <div class="flex-item prodottohomepage flex-container-price" id="prodotto" name="{{name}}" href="prodotto/{{id}}">
+
+            <div id="sup" class="centravert">
+
+                <div class="centra">
+
+                    <img class="flex-item:nth-child bord imm" src="http://loveitaly.altervista.org/api/images/products/{{id}}/{{id_default_image}}&ws_key=IYI6M35MLB8UVW38Y99RY3YPQWRX5X8H" class="img-thumbnail">
+
+                </div>
+
+            </div>
+
+            <div id="inf" class="centravert">
+
+                <div id="nomeprod" class="{{name}}"></div>
+
+                <div class="centra nome_Prod"> {{name}}</div>
+
+                <div class="centra nome_Az"> {{manufacturer_name}}</div>
+
+                <div class="centra Price flex-item-price"> {{price}}</div>
+
+            </div>
+
+        </div>
+        {{/if}} {{/each}} {{else}}
+
+        <p>Non abbiamo trovato prodotti!</p>
+
+        {{/if}}
+
+    </div>
+
+</script>

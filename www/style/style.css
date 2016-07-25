@@ -1,0 +1,347 @@
+/* STANDARD FOR MOBILE */
+* {
+  /* transparent link and button selection */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body {
+  -webkit-touch-callout: none;
+  /* no callouts during tap and hold */
+  -webkit-text-size-adjust: none;
+  /* no fonts auto inflation */
+  -webkit-user-select: none;
+  /* no copy and paste, etc. */
+  background-attachment: fixed;
+  font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%; 
+  overflow-y: hidden;
+}
+
+/* END STANDARD MOBILE */
+/* CUSTOM FONTS */
+@font-face {
+  font-family: 'Dax';
+  src: url("../fonts/DaxBold.ttf") format("truetype"); }
+
+/* END CUSTOM FONTS */
+/* START STRUCTURE */
+#main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+ }
+
+.displaynone {
+  display: none; }
+
+.invisible {
+  visibility: hidden; }
+
+#content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0; 
+  overflow-Y: transparent;
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  }
+
+.scrollable {
+  -webkit-overflow-scrolling: touch; }
+
+.not_scrollable {
+  -webkit-overflow-scrolling: auto; }
+
+/* END STRUCTURE */
+#map {
+  height: 100%;
+  width: 100%; }
+
+
+
+/*============================================*/
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 15px;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+
+    /****************************** LEONARDO *********************/
+
+.categoria{
+  margin: 1px;
+}
+.flex-containerhead {
+    background-color: green;
+    -webkit-align-items: center;
+    align-items: center;
+    color:white;
+    display: -webkit-flex;
+    display: flex;
+    height: 50px;
+  /*  position: fixed;
+    position: absolute;*/
+    right: 0;
+    left: 0;
+    top: 0px;
+}
+.flex-item2head {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.flex-item3head {
+    -webkit-flex: 1;
+    flex: 1;
+}
+.flex-item1head {
+    -webkit-flex: 20;
+    flex: 13;
+    margin: 5px;
+    background-color: green;
+    color:white;
+}
+.icona{
+    color:white;
+    font-size: 20px !important;
+    margin: 5px;
+
+}
+.cat{
+  width: 100%;
+  height:20px;
+  background-color: grey;
+  margin: 2px;
+  border:2px solid grey;
+  border-radius: 5px;
+}
+#menusup{
+  top:0px;
+}
+.fixed {
+position: fixed;
+top: 0;
+z-index: 999;
+}
+.tes1{
+    font-family: Roboto;
+    color: #f5f5f5;
+    font-size: 197%;
+}
+.imm{
+max-height: 76px;
+    max-width: 88px;
+    margin: 8px;
+}
+.centravert{
+  height: 88px;
+}
+#sup{
+}
+#inf{
+}
+.flex-container {
+ 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flex-item-price {
+align:bottom;
+    margin: 10px;
+    font-family: Roboto;
+    margin-top: 13px;
+    margin-bottom: 3px !important;
+}
+
+.flex-item {
+
+    border:2px solid rgba(158, 158, 158, 0.45);
+    width: 45%;
+    height: 180px;
+    margin: 7px;
+    border-radius: 3px;
+}
+.ricerca{
+  
+    height: 70%; 
+   /* -webkit-appearance: none;
+    padding: 0 1px; 
+     margin-bottom: 0px; 
+    line-height: 0px; 
+    background-color: #fff;
+     border: 1px solid #ddd; 
+    border-radius: 3px;
+     outline: 0; */
+
+}
+.img-cart{
+  border-radius: 50%;
+  margin-left: -17.5%;
+  margin-top: 3%;
+  margin-bottom: 3%; 
+  max-width: 150px;
+  max-height: 160px;
+}
+.textricerca{
+    box-shadow: 0px 0px 0px 0px #green;
+  color: black;
+    width: 95%;
+    height: 100%;
+    font:white;
+    font-size: 100%;
+    background-color: inherit;
+    color: white;
+    border-width: 0px;
+}
+#errore{
+      text-align: center;
+    font-family: sans-serif;
+    color: green;
+}
+.buttonload {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2%;
+}
+.fissa {
+    position: fixed;
+    top: 0px;
+}
+.titolo{
+    align-content: center;
+    font-size: 26px;
+    font-family: roboto;
+    text-align: center;
+}
+.cont{
+  margin-top: 20%;
+}
+.flex-containerIMP {
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center;
+        -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.flex-container2IMP {
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-item1IMP {
+    background-color: grey;
+    width: 40%;
+    height: 92%;
+    margin: 10px;
+}
+.flex-item2IMP {
+    background-color: cornflowerblue;
+    width: 95%;
+    height: 50%;
+    margin: 10px;
+}
+.flex-item3IMP {
+    background-color: red;
+    width: 95%;
+    height: 50%;
+    margin: 10px;
+}
+.titolo-prodottoIMP {
+  background-color: red;
+  margin:10px;
+    height: 10%;
+}
+.descrizione-prodottoIMP {
+  background-color: red;
+  margin:10px;
+    height: 27%;
+}
+.provenienza-prodottoIMP {
+  -webkit-align-self: flex-end;
+    align-self: flex-end;
+  background-color: red;
+  margin:10px;
+    height: 10%;
+    width: 92%;
+    margin-top: 20px;
+
+}
+.prezzo-prodottoIMP {
+  -webkit-align-self: flex-end;
+    align-self: flex-end;
+  background-color: red;
+  align-content: right;
+  margin:10px;
+    height: 10%;
+    width: 22%;
+    margin-top: 7px;
+    margin-left: 140px;
+}
