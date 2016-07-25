@@ -1,5 +1,5 @@
 var autenticazione = function(xhr) {
-    var key64 = 'SVlJNk0zNU1MQjhVVlczOFk5OVJZM1lQUVdSWDVYOEg6'; //codifica 64 della API key
+    var key64 = 'SVlJNk0zNU1MQjhVVlczOFk5OVJZM1lQUVdSWDVYOEg6'; 
     var token = 'Basic '.concat(key64);
     xhr.setRequestHeader('Authorization', token);
 }
@@ -29,7 +29,6 @@ define(function(require) {
 
         sync: function(method, collection, options) {
             options = options || {};
-            //   options.beforeSend = autenticazione;
             return Backbone.Model.prototype.sync.apply(this, arguments);
         }
     });

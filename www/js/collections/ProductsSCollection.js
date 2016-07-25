@@ -25,7 +25,6 @@ define(function(require) {
 
         sync: function(method, collection, options) {
             options = options || {};
-            //  options.beforeSend = autenticazione;
             return Backbone.Collection.prototype.sync.apply(this, arguments);
         }
     });

@@ -2,16 +2,12 @@
 require.config({
   paths: {
     jquery: '../lib/zepto/zepto',
-    //query:'../lib/jquery/jquery_min', 
     underscore: '../lib/underscore/underscore',
     backbone: "../lib/backbone/backbone",
     text: '../lib/require/text',
     async: '../lib/require/async',
     handlebars: '../lib/handlebars/handlebars',
     templates: '../templates',
-    leaflet: '../lib/leaflet/leaflet',
-    spin: '../lib/spin/spin.min',
-    preloader: '../lib/preloader/pre-loader',
     utils: '../lib/utils/utils',
     session: '../lib/backbone.session',
     md5: '../lib/md5.min'
@@ -26,15 +22,12 @@ require.config({
     'handlebars': {
       exports: 'Handlebars'
     },
-    'leaflet': {
-      exports: 'L'
-    }
   }
 });
 
 // We launch the App
 require(['underscore', 'backbone', 'utils'], function(_, Backbone, Utils) {
-  require(['preloader', 'router'], function(PreLoader, AppRouter) {
+  require(['router'], function(AppRouter) {
 
     document.addEventListener("deviceready", run, false);
 

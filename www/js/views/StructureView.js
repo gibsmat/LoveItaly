@@ -57,6 +57,7 @@
 
                window.history.go(-1);
            },
+           //searchbyname serve a ricercare un prodotto attraverso il nome
            searchbyname: function() {
                var rice = $("#sear").val();
                var href = "searchname/" + rice;
@@ -233,14 +234,9 @@
                } else {
                    localStorage.setItem('procedere', 'false');
 
-                   /*
-                   gestione transizioni ed effetti per mostrare all'utente 
-                   un gradevole avviso di mancanza di connessione  
-                   */
                }
 
                // load the template
-               // this.el.innerHTML = this.template(JSON.parse(localStorage["Carrello"]));
                this.el.innerHTML = this.template({});
 
                // cache a reference to the content element

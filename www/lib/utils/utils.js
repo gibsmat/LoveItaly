@@ -117,45 +117,7 @@ define(function(require) {
         // notify the new view that it is now in the DOM
         // this.currentView.trigger("inTheDOM");
     };
-    // function that will be called by the router every time a view must be removed from the DOM 
-    /*$(document).on('pagecontainerhide', function() {
-console.log("mobileinit");
-});
-  $('mobileinit').load(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("content-load");
-});  $(pagebeforeload).ready(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("content-ready");
-}); 
- $(pageload).load(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("main-load");
-});  $(pagebeforechange).ready(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("main-ready");
-}); 
-$(pagechange).load(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("window-load");
-});  $(window).ready(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("window-ready");
-});
- $(document).load(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("document-load");
-});  $(document).ready(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("document-ready");
-});
-$('.pagina').ready(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("cur-ready");
-});$(".pagina").load(function() {
-  $("#spinner").fadeToggle("slow");
-  console.log("cur-load");
-});*/
+ 
     Backbone.Router.prototype.changePage = function(page, effect, side) {
         //we have not effect selected
         // console.log("effect"+" "+effect);
@@ -386,6 +348,7 @@ $('.pagina').ready(function() {
     Utils.Page = Backbone.View.extend({
         // here we will put all Page-specific code
     });
+    //Totale restituisce il totale di un acquisto
     totale = function() {
         var carrelloObject = JSON.parse(localStorage.getItem('carrellolocal'));
         var carrellocollection = new CarrelloCollection(carrelloObject);
@@ -398,10 +361,11 @@ $('.pagina').ready(function() {
         tot = arrotonda(tot);
         return tot;
     }
+    //arrotonda serve a formattare i numeri float
     arrotonda = function(valore) {
         return Math.round(valore * Math.pow(10, 2)) / Math.pow(10, 2);
     };
-
+    //notag elimnina i tag html
     notag = function(text) {
 
 
@@ -413,19 +377,19 @@ $('.pagina').ready(function() {
 
 
     }
+    //selezione seleziona attraverso la geolocalizzazione la posizione dell'utente
     selezione = function() {
         var scelta = localStorage.getItem('localizzazione');
-        console.log(scelta);
         if ((scelta == 'salta') || (scelta = '')) {
             $("#where").html("Scegli la città dove vuoi ricevere l'ordine :");
         } else {
             var scelta = localStorage.getItem('localizzazione');
-            console.log(scelta + "dd");
             $("#where").html("Sei stato localizzato presso :");
         }
         $('#' + scelta).attr('selected', true);
     };
 
+//checkConnection serve a controllare la connessione
     checkConnection = function() {
 
         var online, speed;
@@ -468,7 +432,7 @@ $('.pagina').ready(function() {
         }
         return online ? speed : false;
     }
-
+//Taglio serve a accorciare i nomi se troppo lunghi
     taglio = function(appoggio) {
         for (var i = 0;
             (appoggio[i]); i++) {

@@ -49,7 +49,7 @@ define(function(require) {
             $("#menusup").removeClass();
             $("#he2").addClass("icona fa fa-chevron-left flex-item2head"); //indietro
             $("#he3").addClass("flex-item1head ricerca"); //div input
-            $("#he3").html("<input class='textricerca nuovo' value ='cercami..' type='text' name='sear' id='sear'>");
+            $("#he3").html("<input class='textricerca nuovo' value ='Cerca qui il tuo prodotto...' type='text' name='sear' id='sear'>");
             $("#he4").addClass("cercami"); //input
             $("#he5").addClass("flex-item3head icona cercap fa fa-search"); //cerca
             $("#menusup").addClass("flex-containerhead fixed");
